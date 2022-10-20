@@ -1,0 +1,47 @@
+
+img {
+    width: 50%;
+}
+
+.bg-main{
+    background-color: antiquewhite;
+}
+
+.container{
+    margin: 0 auto;
+    width: 60%;
+    height: 80vh;
+}
+
+.row{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.card{
+    width: calc(100% / 3 - 2em);
+    height: calc(100% / 2 -2em);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: white;
+    border-radius: 20%;
+    
+}
+
+
+.card .photo{
+    object-fit: contain;  
+}
+
+.card .names{
+    font-weight: bolder;
+    font-size: 20px;
+    color: grey;
+}
